@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-#gem 'execjs'
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
 
 
 group :development do
